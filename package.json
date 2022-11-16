@@ -1,0 +1,36 @@
+{
+  "name": "read",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "deploy": "vercel deploy",
+    "env": "vercel env pull",
+    "format": "prettier --ignore-path .gitignore --write .",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "serve": "next start",
+    "start": "next dev"
+  },
+  "dependencies": {
+    "@next/font": "^13.0.3",
+    "@svgr/webpack": "^6.5.1",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "8.27.0",
+    "eslint-config-next": "^13.0.3",
+    "eslint-config-prettier": "^8.5.0",
+    "next": "^13.0.3",
+    "next-seo": "^5.14.1",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.3",
+    "rehype-slug": "^5.1.0",
+    "remark-gemoji": "^7.0.1",
+    "remark-gfm": "^3.0.1",
+    "typescript": "^4.9.3",
+    "vercel": "^19.1.2"
+  }
+}
