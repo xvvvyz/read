@@ -12,7 +12,6 @@
     "start": "next dev"
   },
   "dependencies": {
-    "@next/font": "^13.0.3",
     "@svgr/webpack": "^6.5.1",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
