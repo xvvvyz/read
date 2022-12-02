@@ -1,5 +1,6 @@
 module.exports = {
   experimental: {
+    appDir: true,
     largePageDataBytes: 128 * 100000,
   },
   reactStrictMode: true,
@@ -12,6 +13,7 @@ module.exports = {
       },
     ];
   },
+  swcMinify: true,
   webpack(config) {
     config.module.rules.push({ test: /\.svg$/, use: ['@svgr/webpack'] });
     return config;
